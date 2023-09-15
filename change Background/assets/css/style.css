@@ -1,0 +1,30 @@
+body {
+    background-image: url(../img/3.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: scroll;
+}
+
+.backgroundImage {
+    width: 50%;
+    position: fixed;
+    bottom: 20px;
+    left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+    height: 100vh;
+}
+
+.backgroundImage img {
+    width: calc(100% / 3);
+    border-radius: 20px;
+    transition: 1s;
+    border: 2px solid black;
+}
+
+.backgroundImage img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
