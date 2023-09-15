@@ -1,0 +1,44 @@
+.container {
+    margin: 0px 250px;
+}
+
+.imageSlider__buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imageSlider__buttons img {
+    position: absolute;
+    top: 50%;
+    width: 60px;
+}
+
+.imageSlider__buttons .left {
+    left: 20px;
+}
+.imageSlider__buttons .right {
+    right: 20px;
+}
+
+.imageSlider__buttons img:hover {
+    cursor: pointer;
+}
+
+.imageSlider__img img {
+    width: 100%;
+    height: 97vh;
+    border-radius: 20px 150px 20px 150px;
+}
+
+.imageSlider__img {
+    transition: .5s ease-in-out;
+}
+
+.deactive {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
