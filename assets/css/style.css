@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+}
+
+.container {
+    margin:100px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.container h1 {
+    position: absolute;
+    top: 0;
+    left: 40%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.box {
+    width: 200px;
+    height: 20vh;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.box button {
+    border: 0;
+    padding: 20px;
+    background-color: rgba(67, 192, 86, 0.724);
+    border-radius: 50px;
+    margin-top: 25px;
+    transition: 1s;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.box button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
